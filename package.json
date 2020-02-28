@@ -1,0 +1,25 @@
+{
+  "name": "akaneko",
+  "version": "1.0.0",
+  "description": "A package which replies with Neko girls! Inspired by Neko.life!",
+  "main": "fubuki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://gitlab.com/weeb-squad/akaneko"
+  },
+  "keywords": [
+    "nsfw",
+    "anime",
+    "images",
+    "discord",
+    "neko",
+    "cute",
+    "as",
+    "fubuki"
+  ],
+  "author": "ryumin",
+  "license": "MIT"
+}

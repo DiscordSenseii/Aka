@@ -1,7 +1,7 @@
 {
   "name": "akaneko",
-  "version": "1.0.0",
-  "description": "A package which replies with Neko girls! Inspired by Neko.life!",
+  "version": "1.0.1",
+  "description": "An Anime/Hentai Image API which simplifies how you fetch random images from the local JSON!",
   "main": "fubuki.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

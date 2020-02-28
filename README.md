@@ -5,6 +5,7 @@
   </p>
   <br />
 </div>
+Akaneko is an Anime/Hentai Image API which simplifies how you fetch random images from the local JSON! More features and functions will be added soon !
 
 ## Installation
 ``npm install akaneko``

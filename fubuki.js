@@ -2,7 +2,7 @@
 // Please Treat it well //
 // Pardon my England, I'm from Japan! //
 
-// Join my Discord Support Server! //
+// Join my Discord Support Server! (Cute As Fubuki) //
 // https://discord.gg/DxHvWwC //
 
 //===// Export Module //===//

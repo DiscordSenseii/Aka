@@ -11,6 +11,7 @@ Akaneko is an Anime/Hentai Image API which simplifies how you fetch random image
 ``npm install akaneko``
 
 ## Example(s)
+**NodeJS:**
 ```javascript
 // Akaneko //
 const akaneko = require('akaneko');
@@ -42,16 +43,67 @@ lewdBomb(amount) | Sends an array of random lewds of (amount) parameter~
 ## NSFW Function(s)
 Example:
 ```javascript
-akaneko.nsfw.(function) // Format
-akaneko.nsfw.hentai // Example
+akaneko.nsfw.function() // Format
+akaneko.nsfw.hentai() // Example
 ```
 Function | Description
 ---|---
+ass | Sends a random imageURL for some anime ass~ uwu
 bdsm | Sends a random imageURL from Discord for the tag: **bdsm**
 cum | Sends a random imageURL from Discord for the tag: **cum**
 doujin | Sends a random doujin page imageURL!
 hentai | Sends a random vanilla hentai imageURL~
 maid | Sends a random imageURL from Discord for the tag: **maid**
+orgy | Sends a random imageURL for an orgy (groupy or whatever)
+panties | I mean... just why? You like underwear?
+
+## Discord Bot Example
+```javascript
+const Discord = require('discord.js');
+const akaneko = require('akaneko');
+
+// Create New Client //
+const client = new Discord.Client();
+
+// Bot Settings //
+const settings = {
+  prefix: "YOUR_BOT_PREFIX",
+  token: 'YOUR_BOT_TOKEN'
+}
+
+client.on('message', async message => {
+
+  // Create New Embed //
+  const akanekoSan = new Discord.RichEmbed();
+
+  // Defines Command //
+  var command = message.content.toLowerCase().slice(settings.prefix.length).split(' ')[0];
+
+  // Onii-chan, don't reply! //
+  if (!message.content.startsWith(settings.prefix) || message.author.bot) return;
+
+  if (command == 'lewdneko') {
+
+    // For Embed //
+    akanekoSan.setImage(akaneko.lewdNeko());
+    return message.channel.send(akanekoSan);
+
+    // For Plain Text //
+    return message.channel.send(akaneko.lewdNeko());
+
+  } else if (command == 'maid') {
+
+    // For Embed //
+    akanekoSan.setImage(akaneko.nsfw.maid());
+    return message.channel.send(akanekoSan);
+
+    // For Plain Text //
+    return message.channel.send(akaneko.nsfw.maid());
+    
+  }
+
+});
+  ```
 
 ## Support
 [Discord Server](https://discord.gg/DxHvWwC)

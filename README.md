@@ -4,8 +4,14 @@
     <a href="https://discord.gg/DxHvWwC"><img src="https://media.discordapp.net/attachments/682872468322648119/682872516259217418/akaneko.png" width="546" alt="Cute As Fubuki" /></a>
   </p>
   <br />
+  <p>
+    <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/v/akaneko.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/dt/akaneko.svg?maxAge=3600" alt="NPM downloads" /></a>
+  </p>
 </div>
 Akaneko is an Anime/Hentai Image API which simplifies how you fetch random images from the local JSON! More features and functions will be added soon !
+
+[Discord Server](https://discord.gg/DxHvWwC) | [Repository](https://gitlab.com/weeb-squad/akaneko)
 
 ## Installation
 ``npm install akaneko``

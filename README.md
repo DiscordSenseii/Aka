@@ -61,6 +61,7 @@ Function | Description
 ass | Sends a random imageURL for some anime ass~ uwu
 bdsm | Sends a random imageURL from Discord for the tag: **bdsm**
 cum | Sends a random imageURL from Discord for the tag: **cum**
+femdom | Female Domination?
 doujin | Sends a random doujin page imageURL!
 hentai | Sends a random vanilla hentai imageURL~
 maid | Sends a random imageURL from Discord for the tag: **maid**

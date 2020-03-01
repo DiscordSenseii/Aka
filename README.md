@@ -28,6 +28,9 @@ console.log("SFW Neko: " + akaneko.neko());
 // Get Lewd Neko (NSFW), owo //
 console.log("Lewd Neko:" + akaneko.lewdNeko());
 
+// Lewd Bomb me onii-san~~ //
+console.log("Lewd Bomb: " + akaneko.lewdBomb(5));
+
 // Get other NSFW Images //
 console.log("BDSM: " + akaneko.nsfw.bdsm());
 console.log("Maid: " + akaneko.nsfw.maid());
@@ -39,6 +42,7 @@ Example:
 ```javascript
 akaneko.function() // Format
 akaneko.neko() // Example
+akaneko.lewdBomb(5) // Example 2
 ```
 Function | Description
 ---|---

@@ -1,6 +1,6 @@
 {
   "name": "akaneko",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An Anime/Hentai Image API which simplifies how you fetch random images from the local JSON, fast and reliable!",
   "main": "fubuki.js",
   "scripts": {

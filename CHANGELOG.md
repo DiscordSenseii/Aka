@@ -1,10 +1,4 @@
 Changes Made:
 
-3.0.0
-- Added NSFW Wallpapers for Mobile
-- Added SFW Wallpapers for Mobile
-- Added NSFW Wallpapers for Desktop
-- Added SFW Wallpapers for Desktop
-
-3.0.1
-- Possible fix for wallpapers
+3.2:
+- Why, Why did I decide to add Netorare, you had no idea how much things I had to see, I was not happy, but okay.

@@ -67,6 +67,7 @@ hentai | Sends a random vanilla hentai imageURL~
 maid | Sends a random imageURL from Discord for the tag: **maid**
 orgy | Sends a random imageURL for an orgy (groupy or whatever)
 panties | I mean... just why? You like underwear?
+netorare | Wow, I won't even question your fetishes.
 
 ## Wallpaper Function(s)
 Example:

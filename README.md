@@ -60,15 +60,23 @@ Function | Description
 ---|---
 ass | Sends a random imageURL for some anime ass~ uwu
 bdsm | Sends a random imageURL from Discord for the tag: **bdsm**
+blowjob | Basically an image of a girl sucking on a sharp blade!
 cum | Sends a random imageURL from Discord for the tag: **cum**
-femdom | Female Domination?
 doujin | Sends a random doujin page imageURL!
+feet | So you like smelly feet huh?
+femdom | Female Domination?
+gifs | Basically an animated image, so yes :3
 hentai | Sends a random vanilla hentai imageURL~
+netorare | Wow, I won't even question your fetishes.
 maid | Sends a random imageURL from Discord for the tag: **maid**
 orgy | Sends a random imageURL for an orgy (groupy or whatever)
 panties | I mean... just why? You like underwear?
-netorare | Wow, I won't even question your fetishes.
-gifs | Basically an animated image, so yes :3
+pussy | The genitals of a female, or a cat, you give the meaning.
+uglyBastard | The one thing most of us can all agree to hate :)
+uniform | School Uniforms~
+
+
+
 
 ## Wallpaper Function(s)
 Example:

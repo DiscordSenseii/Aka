@@ -9,7 +9,7 @@
     <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/dt/akaneko.svg?maxAge=3600" alt="NPM downloads" /></a>
   </p>
 </div>
-Akaneko is an Anime/Hentai Image API which simplifies how you fetch random images from the local JSON! More features and functions will be added soon !
+Akaneko is an Anime/Hentai (NSFW) Image API which simplifies how you fetch random images from the local JSON! More features and functions will be added soon! Do understand that I scoure the internet for quality images and copy and paste the links manually, so that's the reason there aren't as many images on a single function~
 
 [Discord Server](https://discord.gg/DxHvWwC) | [Repository](https://gitlab.com/weeb-squad/akaneko)
 
@@ -46,8 +46,8 @@ akaneko.lewdBomb(5) // Example 2
 ```
 Function | Description
 ---|---
-neko | Sends a random imageURL of a SFW Nekogirl~
-lewdneko | Sends a random imageURL of a NSFW Nekogirl~
+neko | SFW Neko Girls (Cat Girls)
+lewdneko | NSFW Neko Girls (Cat Girls)
 lewdBomb(amount) | Sends an array of random lewds of (amount) parameter~
 
 ## NSFW Function(s)
@@ -58,18 +58,18 @@ akaneko.nsfw.hentai() // Example
 ```
 Function | Description
 ---|---
-ass | Sends a random imageURL for some anime ass~ uwu
-bdsm | Sends a random imageURL from Discord for the tag: **bdsm**
+ass | I know you like anime ass~ uwu
+bdsm | If you don't know what it is, search it up
 blowjob | Basically an image of a girl sucking on a sharp blade!
-cum | Sends a random imageURL from Discord for the tag: **cum**
+cum | Basically sticky white stuff that is usually milked from sharpies.
 doujin | Sends a random doujin page imageURL!
 feet | So you like smelly feet huh?
 femdom | Female Domination?
 gifs | Basically an animated image, so yes :3
 hentai | Sends a random vanilla hentai imageURL~
 netorare | Wow, I won't even question your fetishes.
-maid | Sends a random imageURL from Discord for the tag: **maid**
-orgy | Sends a random imageURL for an orgy (groupy or whatever)
+maid | Maids, Maid Uniforms, etc, you know what maids are :3
+orgy | Group Lewd Acts
 panties | I mean... just why? You like underwear?
 pussy | The genitals of a female, or a cat, you give the meaning.
 uglyBastard | The one thing most of us can all agree to hate :)
@@ -110,7 +110,7 @@ const settings = {
 client.on('message', async message => {
 
   // Create New Embed //
-  const akanekoSan = new Discord.RichEmbed();
+  const embed = new Discord.RichEmbed();
 
   // Defines Command //
   var command = message.content.toLowerCase().slice(settings.prefix.length).split(' ')[0];
@@ -121,8 +121,8 @@ client.on('message', async message => {
   if (command == 'lewdneko') {
 
     // For Embed //
-    akanekoSan.setImage(akaneko.lewdNeko());
-    return message.channel.send(akanekoSan);
+    embed.setImage(akaneko.lewdNeko());
+    return message.channel.send(embed);
 
     // For Plain Text //
     return message.channel.send(akaneko.lewdNeko());
@@ -130,8 +130,8 @@ client.on('message', async message => {
   } else if (command == 'maid') {
 
     // For Embed //
-    akanekoSan.setImage(akaneko.nsfw.maid());
-    return message.channel.send(akanekoSan);
+    embed.setImage(akaneko.nsfw.maid());
+    return message.channel.send(embed);
 
     // For Plain Text //
     return message.channel.send(akaneko.nsfw.maid());

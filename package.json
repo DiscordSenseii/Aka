@@ -1,6 +1,6 @@
 {
   "name": "akaneko",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "An Anime/Hentai Image API which simplifies how you fetch random images for you! Reliable, and very pleasure friendly!",
   "main": "fubuki.js",
   "scripts": {
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "\u0016https://gitlab.com/weeb-squad/akaneko"
-  },
-  "dependencies": {
-    "superagent": "^6.1.0"
   },
   "keywords": [
     "nsfw",

@@ -164,5 +164,8 @@ client.on('message', async message => {
 });
   ```
 
+## Thank Yous
+- Discord@HanBao#8443 (For helping make lewdBomb much more simpler and also much more efficient and fast!)
+
 ## Support
 [Discord Server](https://discord.gg/DxHvWwC)

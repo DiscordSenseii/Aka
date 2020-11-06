@@ -110,7 +110,7 @@ async function yourFunctionName() {
 }
 
 // Option 2, Using ".then" //
-await akaneko.nsfw.maid.then((imageURL) => {
+akaneko.nsfw.maid.then((imageURL) => {
   console.log(imageURL);
 })
 ```

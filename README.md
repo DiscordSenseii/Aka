@@ -5,8 +5,9 @@
   </p>
   <br />
   <p>
-    <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/v/akaneko.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/dt/akaneko.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/v/akaneko.svg?maxAge=3600"/></a>
+    <a href="https://www.npmjs.com/package/akaneko"><img src="https://img.shields.io/npm/dt/akaneko.svg?maxAge=3600"/></a>
+    <a href="https://www.npmjs.com/package/akaneko"><img src="https://badgen.net/packagephobia/install/akaneko"></a>
   </p>
 </div>
 Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use, however do understand that I'm the only one working on this, and I hand pick images to add, so you may get repeated images! Use it for your Discord Bot, your Self Made Console Waifu, or whatever it is :3
@@ -109,6 +110,9 @@ async function yourFunctionName() {
   console.log(await akaneko.nsfw.maid); // Output: Some weird long link that you probably will definitely try to open //
 }
 
+// Don't forget to call your function! //
+yourFunctionName();
+
 // Option 2, Using ".then" //
 akaneko.nsfw.maid.then((imageURL) => {
   console.log(imageURL);
@@ -165,7 +169,7 @@ client.on('message', async message => {
   ```
 
 ## Thank Yous
-- Discord@HanBao#8443 (For helping make lewdBomb much more simpler and also much more efficient and fast!)
+- **@HanBao#8443** (For helping make lewdBomb() much more simpler and also much more efficient and fast!)
 
 ## Support
 [Discord Server](https://discord.gg/DxHvWwC)

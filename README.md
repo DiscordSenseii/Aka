@@ -171,5 +171,8 @@ client.on('message', async message => {
 ## Thank Yous
 - **@HanBao#8443** (For helping make lewdBomb() much more simpler and also much more efficient and fast!)
 
+## Fun Fact
+/package/hmtai copied this package and my handpicked images that i spent enduring my arousal to copy and paste links without crediting this package through the MIT license :)
+
 ## Support
 [Discord Server](https://discord.gg/DxHvWwC)

@@ -76,13 +76,18 @@ cum | Basically sticky white stuff that is usually milked from sharpies.
 doujin | Sends a random doujin page imageURL!
 feet | So you like smelly feet huh?
 femdom | Female Domination?
+foxgirl | Girl's that are wannabe foxes, yes
 gifs | Basically an animated image, so yes :3
+glasses | Girls that wear glasses, uwu~
 hentai | Sends a random vanilla hentai imageURL~
 netorare | Wow, I won't even question your fetishes.
 maid | Maids, Maid Uniforms, etc, you know what maids are :3
+masturbation | Solo Queue in CSGO!
 orgy | Group Lewd Acts
 panties | I mean... just why? You like underwear?
 pussy | The genitals of a female, or a cat, you give the meaning.
+tentacles | I'm sorry but, why do they look like intestines?
+thighs | The top part of your legs, very hot, isn't it?
 uglyBastard | The one thing most of us can all agree to hate :)
 uniform | School Uniforms~
 
@@ -166,11 +171,15 @@ client.on('message', async message => {
     
   }
 
+  client.login(token);
 });
   ```
 
 ## Thank Yous
 - **@HanBao#8443** (For helping make lewdBomb() much more simpler and also much more efficient and fast!)
+
+## Sources
+I hand picked most of the images from the following: Discord Servers, Konachan, Patreon, Friends sending me, nHentai, etc.
 
 ## Fun Fact
 /package/hmtai copied this package and my handpicked images that i spent enduring my arousal to copy and paste links without crediting this package through the MIT license :)

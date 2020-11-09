@@ -52,13 +52,14 @@ Example:
 ```javascript
 akaneko.function() // Format
 akaneko.neko() // Example
+akaneko.lewdNeko()
 akaneko.lewdBomb() // For now, it will only give 5 of different images, no matter the parameter, change it next update, no worry :)
 ```
 Function | Description
 ---|---
 neko | SFW Neko Girls (Cat Girls)
-lewdneko | NSFW Neko Girls (Cat Girls)
-lewdBomb() | Sends an array of random lewds of (amount) parameter~
+lewdNeko | NSFW Neko Girls (Cat Girls)
+lewdBomb() | Sends a 5x bomb of some kitties :3
 
 ## NSFW Function(s)
 Example:

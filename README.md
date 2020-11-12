@@ -189,7 +189,7 @@ client.on('message', async message => {
 
 ## Thank Yous
 - **@HanBao#8443** (For helping make lewdBomb() much more simpler and also much more efficient and fast!)
-- **@LamkasDev** [github.com/LamkasDev] (Helping create foxgirls() <-- sfw btw, thanks so much!)
+- **[@LamkasDev](github.com/LamkasDev)** (Helping create foxgirls() <-- sfw btw, thanks so much!)
 
 ## Sources
 I hand picked most of the images from the following: Discord Servers, Konachan, Patreon, Friends sending me, nHentai, etc.

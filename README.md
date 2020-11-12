@@ -51,21 +51,32 @@ yourFunctionName();
 Example:
 ```javascript
 akaneko.function() // Format
-akaneko.neko() // Example
-akaneko.lewdNeko()
-akaneko.lewdBomb() // For now, it will only give 5 of different images, no matter the parameter, change it next update, no worry :)
+akaneko.lewdNeko() // Example
+akaneko.lewdBomb() // Meow, I'm Example 2
+```
+Function | Description
+---|---
+lewdNeko | NSFW Neko Girls (Cat Girls)
+lewdBomb() | Sends a 5x bomb of some kitties :3
+
+## SFW Function(s)
+Example:
+```javascript
+akaneko.function() // Format
+akaneko.foxgirl() // Awoo!~ Another example!
+akaneko.neko() // Meow! An Example!
 ```
 Function | Description
 ---|---
 neko | SFW Neko Girls (Cat Girls)
-lewdNeko | NSFW Neko Girls (Cat Girls)
-lewdBomb() | Sends a 5x bomb of some kitties :3
+foxgirl | SFW Fox Girls (Thanks to @LamkasDev!)
 
 ## NSFW Function(s)
 Example:
 ```javascript
 akaneko.nsfw.function() // Format
 akaneko.nsfw.hentai() // Example
+akaneko.nsfw.feet() // Another Example
 ```
 Function | Description
 ---|---

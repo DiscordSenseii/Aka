@@ -17,7 +17,7 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 ## Installation
 ``npm install akaneko``
 
-## IMPORTANT MAJOR UPDATE (GAME BREAKING, HENTAI BREAKING, AROUSAL BREAKING UPDATE)
+## IMPORTANT MAJOR UPDATE (v4.0+) (GAME BREAKING, HENTAI BREAKING, AROUSAL BREAKING UPDATE)
 Yay! We did it! This is the first major update I've had, apart from the first release ever of course, I understand that the package can get extremely big, so I've changed the code to fetch image urls externally from my website! This means you won't have to update everytime I add a new image! It's much more efficient and effective! Everything now relies on Asyncronous Functions which means Akaneko returns a Promise(), you will have to resolve the Promise for it to work. Look below for examples!
 
 ## Example(s)
@@ -86,10 +86,11 @@ masturbation | Solo Queue in CSGO!
 orgy | Group Lewd Acts
 panties | I mean... just why? You like underwear?
 pussy | The genitals of a female, or a cat, you give the meaning.
+school | School Uniforms!~ Yatta~!
 tentacles | I'm sorry but, why do they look like intestines?
 thighs | The top part of your legs, very hot, isn't it?
 uglyBastard | The one thing most of us can all agree to hate :)
-uniform | School Uniforms~
+uniform | Military, Konbini, Nurse Uniforms, etc!~ Sexy~
 
 ## Wallpaper Function(s)
 Example:

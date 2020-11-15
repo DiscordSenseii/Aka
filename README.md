@@ -101,7 +101,7 @@ school | School Uniforms!~ Yatta~!
 tentacles | I'm sorry but, why do they look like intestines?
 thighs | The top part of your legs, very hot, isn't it?
 uglyBastard | The one thing most of us can all agree to hate :)
-uniform | Military, Konbini, Nurse Uniforms, etc!~ Sexy~
+uniform |Military, Konbini, Work, Nurse Uniforms, etc!~ Sexy~
 
 ## Wallpaper Function(s)
 Example:

@@ -125,14 +125,14 @@ const akaneko = require('akaneko');
 
 // Option 1, using and calling an asyncronous function //
 async function yourFunctionName() {
-  console.log(await akaneko.nsfw.maid); // Output: Some weird long link that you probably will definitely try to open //
+  console.log(await akaneko.nsfw.maid()); // Output: Some weird long link that you probably will definitely try to open //
 }
 
 // Don't forget to call your function! //
 yourFunctionName();
 
 // Option 2, Using ".then" //
-akaneko.nsfw.maid.then((imageURL) => {
+akaneko.nsfw.maid().then((imageURL) => {
   console.log(imageURL);
 })
 ```

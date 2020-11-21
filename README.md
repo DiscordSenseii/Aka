@@ -139,7 +139,8 @@ akaneko.nsfw.maid().then((imageURL) => {
 ```
 
 
-## Discord Bot Example
+##
+Discord Bot Example
 ```javascript
 const Discord = require('discord.js');
 const akaneko = require('akaneko');
@@ -153,6 +154,7 @@ const settings = {
   token: 'YOUR_BOT_TOKEN'
 }
 
+// On "Message" Event! //
 client.on('message', async message => {
 
   // Create New Embed //
@@ -184,9 +186,13 @@ client.on('message', async message => {
     
   }
 
+}
+
+  // Login to your bot using the bot token! (don't share it!) //
   client.login(token);
+
 });
-  ```
+```
 
 ## Thank Yous
 - **@HanBao#8443** (For helping make lewdBomb() much more simpler and also much more efficient and fast!)

@@ -189,7 +189,7 @@ client.on('message', async message => {
 }
 
   // Login to your bot using the bot token! (don't share it!) //
-  client.login(token);
+  client.login(settings.token);
 
 });
 ```

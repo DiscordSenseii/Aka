@@ -17,8 +17,10 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 ## Installation
 ``npm install akaneko``
 
-## IMPORTANT MAJOR UPDATE (v4.0+) (GAME BREAKING, HENTAI BREAKING, AROUSAL BREAKING UPDATE)
-Yay! We did it! This is the first major update I've had, apart from the first release ever of course, I understand that the package can get extremely big, so I've changed the code to fetch image urls externally from my website! This means you won't have to update everytime I add a new image! It's much more efficient and effective! Everything now relies on Asyncronous Functions which means Akaneko returns a Promise(), you will have to resolve the Promise for it to work. Look below for examples!
+## Changelogs
+### v4.5.0
+- Switched from Heroku to Glitch since website was down! (So remember to update)
+- Added Zettai Ryouiki as a useable NSFW function! (``nsfw.zettaiRyouiki()``)
 
 ## Example(s)
 **NodeJS:**
@@ -103,6 +105,7 @@ thighs | The top part of your legs, very hot, isn't it?
 uglyBastard | The one thing most of us can all agree to hate :)
 uniform |Military, Konbini, Work, Nurse Uniforms, etc!~ Sexy~
 yuri | Girls on Girls, and Girl's only!<3
+zettaiRyouiki | That one part of the flesh being squeeze in thigh-highs~<3
 
 ## Wallpaper Function(s)
 Example:

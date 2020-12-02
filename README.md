@@ -207,8 +207,5 @@ I hand picked most of the images from the following: Discord Servers, Konachan, 
 ## Contributing
 You can contribute images by sending a list of images of a certain topic, in a JSON file to me @Ryumin#6263 (That's my discord)
 
-## Fun Fact
-/package/hmtai copied this package and my handpicked images that i spent enduring my arousal to copy and paste links without crediting this package through the MIT license :)
-
 ## Support
 [Discord Server](https://discord.gg/DxHvWwC)

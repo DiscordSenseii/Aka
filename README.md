@@ -54,12 +54,12 @@ Example:
 ```javascript
 akaneko.function() // Format
 akaneko.lewdNeko() // Example
-akaneko.lewdBomb() // Meow, I'm Example 2
+akaneko.lewdBomb(5) // Meow, I'm Example 2
 ```
 Function | Description
 ---|---
 lewdNeko | NSFW Neko Girls (Cat Girls)
-lewdBomb() | Sends a 5x bomb of some kitties :3
+lewdBomb(n) | Sends (n) amount of lewds! :3
 
 ## SFW Function(s)
 Example:

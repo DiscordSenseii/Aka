@@ -93,6 +93,7 @@ gifs | Basically an animated image, so yes :3
 glasses | Girls that wear glasses, uwu~
 hentai | Sends a random vanilla hentai imageURL~
 netorare | Wow, I won't even question your fetishes.
+loli | Things you shouldn't search for, that includes me
 maid | Maids, Maid Uniforms, etc, you know what maids are :3
 masturbation | Solo Queue in CSGO!
 orgy | Group Lewd Acts

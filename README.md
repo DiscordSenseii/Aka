@@ -18,9 +18,8 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 ``npm install akaneko``
 
 ## Changelogs
-### v4.5.0
-- Switched from Heroku to Glitch since website was down! (So remember to update)
-- Added Zettai Ryouiki as a useable NSFW function! (``nsfw.zettaiRyouiki()``)
+### v5
+- Uh oh... scroll down to the functions list and you'll see what'll the FBI come for
 
 ## Example(s)
 **NodeJS:**

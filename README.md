@@ -18,8 +18,8 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 ``npm install akaneko``
 
 ## Changelogs
-### v5
-- Uh oh... scroll down to the functions list and you'll see what'll the FBI come for
+### v5.1.0
+- Removed Loli Function (ToS)
 
 ## Example(s)
 **NodeJS:**
@@ -200,6 +200,7 @@ client.on('message', async message => {
 ## Thank Yous
 - **@HanBao#8443** (For helping make lewdBomb() much more simpler and also much more efficient and fast!)
 - **[@LamkasDev](https://github.com/LamkasDev)** (Helping create foxgirls() <-- sfw btw, thanks so much!)
+- **[@taksumaki](https://gitlab.com/taksumaki)** TypeScript Support!
 
 ## Sources
 I hand picked most of the images from the following: Discord Servers, Konachan, Patreon, Friends sending me, nHentai, etc.

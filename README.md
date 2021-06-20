@@ -19,6 +19,8 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 
 ## Changelogs
 ### v5.1.1
+- Added Succubus Function (NSFW)
+- Fixed RichEmbed to MessageEmbed (Readme)
 - Removed Loli Function (ToS)
 
 ## Example(s)

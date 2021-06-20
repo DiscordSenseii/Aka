@@ -100,6 +100,7 @@ orgy | Group Lewd Acts
 panties | I mean... just why? You like underwear?
 pussy | The genitals of a female, or a cat, you give the meaning.
 school | School Uniforms!~ Yatta~!
+succubus | Spooky Succubus, oh I'm so scared~ Totally don't suck me~
 tentacles | I'm sorry but, why do they look like intestines?
 thighs | The top part of your legs, very hot, isn't it?
 uglyBastard | The one thing most of us can all agree to hate :)
@@ -160,8 +161,11 @@ const settings = {
 // On "Message" Event! //
 client.on('message', async message => {
 
+  // Checks if message channel is NSFW! //
+  if (!message.channel.nsfw) return message.channel.send('Sorry! Not NSFW Channel!');
+
   // Create New Embed //
-  const embed = new Discord.RichEmbed();
+  const embed = new Discord.MessageEmbed();
 
   // Defines Command //
   var command = message.content.toLowerCase().slice(settings.prefix.length).split(' ')[0];

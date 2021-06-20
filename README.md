@@ -18,7 +18,7 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 ``npm install akaneko``
 
 ## Changelogs
-### v5.1.0
+### v5.1.1
 - Removed Loli Function (ToS)
 
 ## Example(s)
@@ -93,7 +93,6 @@ gifs | Basically an animated image, so yes :3
 glasses | Girls that wear glasses, uwu~
 hentai | Sends a random vanilla hentai imageURL~
 netorare | Wow, I won't even question your fetishes.
-loli | Things you shouldn't search for, that includes me
 maid | Maids, Maid Uniforms, etc, you know what maids are :3
 masturbation | Solo Queue in CSGO!
 orgy | Group Lewd Acts

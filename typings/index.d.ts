@@ -1,3 +1,6 @@
+// Thank you Taksumaki for helping me with typescript! //
+// https://gitlab.com/taksumaki //
+
 declare module "akaneko" {
   /**
    * Returns Safe for Work Neko Images!

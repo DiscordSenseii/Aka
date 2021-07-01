@@ -18,6 +18,9 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 ``npm install akaneko``
 
 ## Changelogs
+
+### v5.1.3
+- Updated Typescript for succubus function, thanks Taksumaki ! ~ 
 ### v5.1.1
 - Added Succubus Function (NSFW)
 - Fixed RichEmbed to MessageEmbed (Readme)

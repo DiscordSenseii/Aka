@@ -202,5 +202,11 @@ declare module "akaneko" {
      * @returns image uri
      */
     export function wallpapers(): string;
+
+    /**
+     * Spooky Succubus, oh I'm so scared~ Totally don't suck me~
+     * @returns image uri
+     */
+    export function succubus(): string;
   }
 }

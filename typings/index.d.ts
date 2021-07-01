@@ -118,12 +118,6 @@ declare module "akaneko" {
     export function netorare(): string;
 
     /**
-     * Things you shouldn't search for, that includes me
-     * @returns image uri
-     */
-    export function loli(): string;
-
-    /**
      * Maids, Maid Uniforms, etc, you know what maids are :3
      * @returns image uri
      */

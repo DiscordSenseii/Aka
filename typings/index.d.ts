@@ -19,7 +19,7 @@ declare module "akaneko" {
    * Returns Safe for Work Foxgirl Images! Thanks @LamkasDev!
    * @returns image uri
    */
-  export function sfwfoxes(): string;
+  export function foxgirl(): string;
 
   /**
    * Returns Sends a bomb of random images of N value!

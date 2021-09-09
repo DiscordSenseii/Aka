@@ -12,7 +12,7 @@ declare module "akaneko" {
    * Returns you lewd ... and dirty ... Neko Images !
    * @returns image uri
    */
-  export function lewdneko(): string;
+  export function lewdNeko(): string;
 
   /**
    * Images provided by @LamkasDev !~

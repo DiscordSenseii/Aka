@@ -132,20 +132,20 @@ akaneko.nsfw.wallpapers() | Fetch a random NSFW Wallpaper! (Desktop)
 
 ## How to Resolve Promises
 ```javascript
-// Just Calling my dear child, Akaneko //
+// Akaneko //
 const akaneko = require('akaneko');
 
 // Option 1, using and calling an asyncronous function //
 async function yourFunctionName() {
-  console.log(await akaneko.nsfw.maid()); // Output: Some weird long link that you probably will definitely try to open //
+  return console.log(await akaneko.nsfw.maid()); // Output: Some weird long link that you probably will definitely try to open //
 }
 
 // Don't forget to call your function! //
 yourFunctionName();
 
-// Option 2, Using ".then" //
+// Option 2, Returning a Promise //
 akaneko.nsfw.maid().then((imageURL) => {
-  console.log(imageURL);
+  return console.log(imageURL);
 })
 ```
 
@@ -165,14 +165,17 @@ const settings = {
   token: 'YOUR_BOT_TOKEN'
 }
 
+// EmbedBuilder //
+const EmbedBuilder = Discord.EmbedBuilder;
+
 // On "Message" Event! //
 client.on('messageCreate', async (message) => {
 
   // Checks if message channel is NSFW! //
-  if (!message.channel.nsfw) return message.channel.send('Sorry! Not NSFW Channel!');
+  if (!message.channel.nsfw) return message.channel.send('This channel isn\'t NSFW!');
 
   // Create New Embed //
-  const embed = new Discord.MessageEmbed();
+  const embed = new EmbedBuilder();
 
   // Defines Command //
   var command = message.content.toLowerCase().slice(settings.prefix.length).split(' ')[0];
@@ -215,6 +218,10 @@ client.on('messageCreate', async (message) => {
 
 ## Sources
 I hand picked most of the images from the following: Discord Servers, Konachan, Patreon, Friends sending me, nHentai, etc.
+
+## Disclaimer
+I own none of the image, if there's an image deemed extremely inappropriate, or just needs to be removed in general,
+please DM me the URL of the image, and I'll remove it as soon as possible :)
 
 ## Support
 [Discord Server](https://discord.gg/DxHvWwC)

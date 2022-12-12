@@ -19,6 +19,9 @@ Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use,
 
 ## Changelogs
 
+## v5.2.5 (Fix)
+- Changed host website, fix issue with Akaneko not delivering images.
+
 ### v5.1.3
 - Updated Typescript for succubus function, thanks Taksumaki ! ~ 
 ### v5.1.1

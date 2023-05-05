@@ -6,6 +6,6 @@
 // https://discord.gg/DxHvWwC //
 
 //===// Export Module //===//
-module.exports = require('./lib/functions');
+module.exports = require("./lib/functions");
 
 // I hope you enjoy ! //

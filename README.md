@@ -12,22 +12,12 @@
 </div>
 Akaneko is both a SFW and NSFW Wrapper, there's hentais for you perverts to use, however do understand that I'm the only one working on this, and I hand pick images to add, so you may get repeated images! Use it for your Discord Bot, your Self Made Console Waifu, or whatever it is :3
 
-[Discord Server](https://discord.gg/DxHvWwC) | [Repository](https://gitlab.com/weeb-squad/akaneko)
+[Discord Server](https://discord.gg/DxHvWwC) | [Repository](https://gitlab.com/weeb-squad/akaneko) | [Help fund Akaneko♡](https://www.buymeacoffee.com/ryumin)
+
+
 
 ## Installation
 ``npm install akaneko``
-
-## Changelogs
-
-## v5.2.5 (Fix)
-- Changed host website, fix issue with Akaneko not delivering images.
-
-### v5.1.3
-- Updated Typescript for succubus function, thanks Taksumaki ! ~ 
-### v5.1.1
-- Added Succubus Function (NSFW)
-- Fixed RichEmbed to MessageEmbed (Readme)
-- Removed Loli Function (ToS)
 
 ## Example(s)
 **NodeJS:**
